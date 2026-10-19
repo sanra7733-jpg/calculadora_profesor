@@ -1,0 +1,40 @@
+/*contenedor*/
+.formulario{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto; /*centra e pantalla*/
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+/*etiquetas*/
+.formulario label{
+    font-size: 14px;
+    color: black;
+
+}
+
+/*input*/
+.formulario input{
+    padding: 8px;
+    border: 1px #333333;
+    border-radius: 8px;
+
+}
+
+/*button*/
+.formulario button{
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    background-radius: 8px;
+    cursor: pointer;
+}
+
+/*efecto button*/
+.formulario button:hover{
+    background-color: blue;
+}
